@@ -1,0 +1,218 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+:root{
+	--backgound: rgba(102, 51, 153,0.2);
+}
+html{
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+body{
+	font-family: Poppins;
+}
+button{
+	font-family: poppins;
+	transition-duration: 0.3s;
+	background: rgba(102, 51, 153,0.4);
+	color: #663399;
+}
+button:hover{
+	box-shadow: 10px 15px 23px -11px rgba(102,51,153,1);
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+a{
+	text-decoration: none;
+	color: rebeccapurple;
+}
+input{
+	color: rebeccapurple;
+}
+.tog-btn{
+	width: 49%;
+	height: 3.8rem;
+	position: relative;
+	font-family: poppins;
+	font-size: 1.6rem;
+	border-radius: 2rem;
+	border: none;
+	background: transparent;
+}
+#btn{
+	position: absolute;
+	width: 49%;
+	background: rgba(102, 51, 153,0.4);
+	height: 3.8rem;
+	border-radius: 2rem;
+	border: none;
+	left: 0rem;
+	transition-duration: 0.4s;
+}
+.tog-btn:hover{
+	transform: none;
+}
+.buttons{
+	width: 60%;
+	margin: 2rem auto;
+	border: 0.2rem solid rebeccapurple;
+	text-align: center;
+	position: relative;
+	border-radius: 2rem;
+}
+.logo{
+	width: 40%;
+	margin: 1.9rem auto;
+	text-align: center;
+}
+.logo img{
+	width: 15rem;
+}
+.social{
+	width: 60%;
+	margin: 2rem auto 3.9rem auto;
+	text-align: center;
+}
+.social img{
+	margin: 0rem 1rem;
+	border-radius: 50%;
+	transition-duration: 0.3s;
+}
+.social img:hover{
+	box-shadow: 10px 15px 23px -11px rgba(102,51,153,1);
+	transform: translate(2px,2px);
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+/******************************************LOGIN PAGE******************************************/
+section{
+	width: 100%;
+	height: 100vh;
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: var(--backgound);
+}
+.form-container{
+	width: 40rem;
+	height: 60rem;
+	position: relative;
+	overflow: hidden;
+}
+.login{
+	min-width: 300px;
+	width: 40rem;
+	height: 35rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	z-index: 100;
+	position: absolute;
+	transition-duration: 0.4s;
+}
+.l-in{
+	position: relative;
+	background-color: white;
+	border: 0.2rem solid rebeccapurple;
+	border-radius: 4rem;
+	width: 75%;
+	height: 5rem;
+	margin: 1.7rem;
+}
+.login img{
+	position: absolute;
+	color: rebeccapurple;
+	width: 20px;
+	height: auto;
+	top: 27%;
+	left: 5%;
+}
+.login input{
+	width: 85%;
+	height: 5rem;
+	float: right;
+	outline: none;
+	border: none;
+	border-top-right-radius: 4rem;
+	border-bottom-right-radius: 4rem;
+	font-size: 1.8rem;
+}
+.login button{
+	width: 15rem;
+	height: 4.5rem;
+	border: none;
+	border-radius: 4rem;
+	font-size: 1.8rem;
+	margin: 2rem;
+	border: 0.2rem solid rebeccapurple;
+}
+.login p{
+	font-size: 1.6rem;
+}
+/**********************************************************************************************/
+
+
+/******************************************REGISTRATION PAGE******************************************/
+.register{
+	min-width: 300px;
+	width: 40rem;
+	height: 38rem;
+	display: flex;
+	position: absolute;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	z-index: 100;
+	transition-duration: 0.4s;
+}
+.r-in{
+	position: relative;
+	background-color: white;
+	border: 0.2rem solid rebeccapurple;
+	border-radius: 4rem;
+	width: 75%;
+	height: 5rem;
+	margin: 1.7rem;
+}
+.register img{
+	position: absolute;
+	color: rebeccapurple;
+	width: 20px;
+	height: auto;
+	top: 27%;
+	left: 5%;
+}
+.register input{
+	width: 85%;
+	height: 5rem;
+	float: right;
+	outline: none;
+	border: none;
+	border-top-right-radius: 4rem;
+	border-bottom-right-radius: 4rem;
+	font-size: 1.8rem;
+}
+.register button{
+	width: 15rem;
+	height: 4.5rem;
+	border: none;
+	border-radius: 4rem;
+	font-size: 1.8rem;
+	margin: 2rem;
+	color: rebeccapurple;
+	border: 0.2rem solid rebeccapurple;
+}
+.register p{
+	font-size: 1.6rem;
+}
+/*****************************************************************************************************/
+#form_login{
+	left: 0px;
+}
+#form_register{
+	left: 400px;
+}
