@@ -3,7 +3,7 @@
 	margin: 0;
 }
 :root{
-	--backgound: rgba(102, 51, 153,0.2);
+	--backgound: rgba(102, 51, 153,0.1);
 }
 html{
 	font-size: 62.5%;
@@ -15,7 +15,7 @@ body{
 button{
 	font-family: poppins;
 	transition-duration: 0.3s;
-	background: rgba(102, 51, 153,0.4);
+	background: rgba(102, 51, 153,0.17);
 	color: #663399;
 }
 button:hover{
@@ -43,7 +43,7 @@ input{
 #btn{
 	position: absolute;
 	width: 49%;
-	background: rgba(102, 51, 153,0.4);
+	background: rgba(102, 51, 153,0.17);
 	height: 3.8rem;
 	border-radius: 2rem;
 	border: none;
@@ -78,6 +78,8 @@ input{
 	margin: 0rem 1rem;
 	border-radius: 50%;
 	transition-duration: 0.3s;
+	width: 32px;
+	height: auto;
 }
 .social img:hover{
 	box-shadow: 10px 15px 23px -11px rgba(102,51,153,1);
