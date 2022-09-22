@@ -97,7 +97,7 @@ section{
 }
 .form-container{
 	width: 40rem;
-	height: 60rem;
+	height: 65rem;
 	position: relative;
 	overflow: hidden;
 }
@@ -215,4 +215,15 @@ section{
 }
 #form_register{
 	left: 400px;
+}
+/******************************Responsiveness***************************/
+@media(max-width: 415px){
+	html{
+		font-size: 55%;
+	}
+}
+@media(max-width: 350px){
+	html{
+		font-size: 50%;
+	}
 }
