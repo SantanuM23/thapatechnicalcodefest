@@ -32,15 +32,16 @@ h3{
 	color: white;
 	font-size: 1.4rem;
 	outline: none;
-	border: 0.2rem solid white;
+	border: 0.2rem solid rebeccapurple;
 	margin: 2rem auto;
 	background: rgb(236,110,205);
+	transition-duration: 0.3s;
 	background: linear-gradient(90deg, rgba(236,110,205,1) 0%, rgba(197,92,198,1) 32%, rgba(160,74,190,1) 60%, rgba(119,57,185,1) 80%, rgba(119,57,185,1) 100%);
 }
 .btn:hover{
 	cursor: pointer;
-	border: 2px solid var(--linkhover);
-	transition-duration: 1s;
+	transition-duration: 0.3s;
+	box-shadow: 10px 15px 23px -11px rgba(102,51,153,1);
 }
 video{
 	width: 70%;
@@ -433,7 +434,6 @@ header{
 .hero button{
 	margin-left: 10%;
 	border-radius: 3rem;
-	border: none;
 }
 /**********************Sticky background end***************/
 
