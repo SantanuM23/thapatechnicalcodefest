@@ -28,9 +28,9 @@
 			</div>
 
 			<div class="buttons">
-				<button class="btn" id="btn"></button>
-				<button type="button" class="tog-btn" onclick="login()">Log in</button>
-				<button type="button" class="tog-btn" onclick="register()">Sign up</button>
+				<button class="btn" id="btn" name="hover"></button>
+				<button type="button" class="tog-btn" onclick="login()" name="login">Log in</button>
+				<button type="button" class="tog-btn" onclick="register()" name="register">Sign up</button>
 			</div>
 
 			<form class="login" id="form_login">
@@ -42,7 +42,7 @@
 						<img src="images/pw.png" alt="lock">
 						<input type="password" name="password" placeholder="Password" autocomplete="off" required>
 					</div>
-				<button type="submit">Log in</button>
+				<button type="submit" name="login-button">Log in</button>
 				<p>Don't have an account? <a href="#"onclick="register()">Register</a></p>
 			</form>
 
@@ -60,7 +60,7 @@
 						<img src="images/pw.png" alt="lock">
 						<input type="password" name="password" placeholder="Password" autocomplete="off" required>
 					</div>
-				<button type="submit">Continue</button>
+				<button type="submit" name="signup">Continue</button>
 				<p>Already have an account? <a href="#" onclick="login()">Sign in</a></p>
 			</form>
 
