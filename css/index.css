@@ -129,7 +129,7 @@ header{
 }
 .head_ul a:hover{
 	cursor: pointer;
-	color: var(--purple);
+	color: var(--linkhover);
 	transition-duration: 0.4s;
 }
 .head_li{
@@ -147,7 +147,7 @@ header{
 	font-weight: bold;
 }
 .log a:hover{
-	color: var(--purple);
+	color: var(--linkhover);
 	transition-duration: 0.4s;
 }
 /******************DROPDOWN MENU******************/
