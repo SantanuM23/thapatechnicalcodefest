@@ -1190,7 +1190,7 @@ footer h3{
 ::-webkit-scrollbar {
   width: 7px;
 }
-/* scrollbar background color */
+/* scrollbar background color **/
 ::-webkit-scrollbar-track {
   background: #052a68;
 }
