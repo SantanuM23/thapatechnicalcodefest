@@ -18,6 +18,15 @@
 	<title>Hostinger | Home</title>
 </head>
 <body>
+	<div class="preloader">
+		<img src="images/favicon.ico">
+		<svg class="loader">
+			<circle cx="70" cy="70" r="70" class="circ c1"></circle>
+			<circle cx="60" cy="60" r="60" class="circ c2"></circle>
+			<circle cx="50" cy="50" r="50" class="circ c3"></circle>
+		</svg>
+	</div>
+	
 <!-- ///////
  ---------------------------------------Header----------------------------------------------- 
  //////// -->
@@ -718,6 +727,14 @@
 	------------------------------Thankyou section END--------------------------------- 
 /////////-->
 
+
+<script type="text/javascript">
+  var preloader = document.querySelector(".preloader");
+
+  window.addEventListener("load",function(){
+    preloader.style.display = "none";
+  })
+</script>			
 
 
 
